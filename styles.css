@@ -1,0 +1,47 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url('images/concert.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.grass{
+    background-color: #23282d !important; 
+}
+.navitems, a{
+    color: whitesmoke !important;
+}
+i{
+    padding-right: 10px;
+}
+.title{
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    text-shadow: 4px 1px 1px rgba(202, 204, 211, 0.71);
+
+}
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.bot{
+    background-color: #23282d;
+    color: aliceblue;
+    height: 50px; 
+    text-align: center;
+    padding-top: 15px;
+}
